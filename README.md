@@ -10,7 +10,8 @@ a.How to run the project.
 
 1.Clone the repository: https://github.com/deepalisabale/Image-Gallery-App.git
 2.Navigate to the project folder: cd Image-Gallery-App
-3.Install the project dependencies: pod install
+3.Install the project dependencies: sudo gem install cocoapods and then
+                                     pod install
 4.Open the .xcworkspace file in Xcode: open Image Gallery App.xcworkspace
 5.Select a simulator or connect a real device and run the project by pressing Cmd + R or by clicking the play button in Xcode.
 
@@ -46,7 +47,7 @@ c.Why you chose specific libraries (if any).
                      MVVM Architecture is folder structure so that one can simply get the idea after looking into the project which files are there under which folder.It will be helpful
                      to understand the project module.
 
-  //Loom Video Link : https://www.loom.com/share/2c034bed467046679285fc88f7d94f4b
+  //Loom Video Link  : https://www.loom.com/share/764ae95caea540218c66a35f3c923ade
 
 
 
