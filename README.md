@@ -22,12 +22,11 @@ I have gone through the documentation part also.I got one URL ( curl -H "Authori
 I have run the above command by replacing my unique access key and client id .After running this command in terminal i got API Response.Accordingly i have created and my model class
 and build my project.
 
-2. Pagination and Infinite Scrolling was a little bit difficult to implement scroll view to load  more images when users scrolls down .For that i have conform to UIScrollViewDelegate method
-        in extension and  Added logic in the scrollViewDidScroll method to detect when the user is near the bottom of the list and trigger the loadMorePhotos() function in the ViewModel.
+2. Pagination and Infinite Scrolling was a little bit difficult to implement scroll view to load  more images when users scrolls down .For that i have conform to UIScrollViewDelegate method in extension and  Added logic in the scrollViewDidScroll method to detect when the user is near the bottom of the list and trigger the loadMorePhotos() function in the ViewModel.
    
- 3.Challenge: Adapting the app's appearance for both dark and light modes, especially with placeholders and background colors.For implementing this functinality
-        I have Used UIColor { traitCollection in ... } to dynamically switch colors based on the user interface style. This ensured a consistent experience across different modes 
-        without needing to duplicate UI code.
+3 Adapting the app's appearance for both dark and light modes, especially with placeholders and background colors.For implementing this functinality
+  I have Used UIColor { traitCollection in ... } to dynamically switch colors based on the user interface style. This ensured a consistent experience across different modes 
+              without needing to duplicate UI code.
 
 c.Why you chose specific libraries (if any).
 
@@ -47,7 +46,7 @@ c.Why you chose specific libraries (if any).
                      MVVM Architecture is folder structure so that one can simply get the idea after looking into the project which files are there under which folder.It will be helpful
                      to understand the project module.
 
-  //Loom Video Link :
+  //Loom Video Link : https://www.loom.com/share/2c034bed467046679285fc88f7d94f4b
 
 
 
